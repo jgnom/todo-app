@@ -43,3 +43,42 @@ todo-app/
 │           ├── TaskList.jsx
 │           └── TaskItem.jsx
 └── README.md              # Этот файл
+```
+
+УСТАНОВКА:
+git clone https://github.com/jgnom/todo-app.git
+cd todo-app
+
+# Переход в папку бэкенда
+cd todo-backend
+
+# Установка зависимостей
+npm install
+
+# Создание файла .env
+```
+PORT=4000
+API_KEY=my-super-secret-key-123
+```
+
+# Переход в папку фронтенда
+cd todo-frontend
+
+# Установка зависимостей
+npm install
+
+# Создание файла .env
+`VITE_API_KEY=my-super-secret-key-123`
+
+
+ЗАПУСК:
+backend:
+```
+cd todo-backend
+node server.js
+```
+frontend:
+```
+cd todo-frontend
+npm run dev
+```
