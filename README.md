@@ -46,14 +46,15 @@ todo-app/
 ```
 
 УСТАНОВКА:
+```
 git clone https://github.com/jgnom/todo-app.git
 cd todo-app
-
+```
 # Переход в папку бэкенда
-cd todo-backend
+`cd todo-backend`
 
 # Установка зависимостей
-npm install
+`npm install`
 
 # Создание файла .env
 ```
@@ -62,10 +63,10 @@ API_KEY=my-super-secret-key-123
 ```
 
 # Переход в папку фронтенда
-cd todo-frontend
+`cd todo-frontend`
 
 # Установка зависимостей
-npm install
+`npm install`
 
 # Создание файла .env
 `VITE_API_KEY=my-super-secret-key-123`
